@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment:form
+        </title>
+    </head>
+    <body style ="background-color: rgb(126, 65, 156); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+       <table  width = "600" style="margin-left:25%; margin-right: 10%; font-size:20px;color:black; background-color:white;
+       border-radius: 10px;" cellspacing="20" >
+            <tbody>
+                <!--1st row-->
+               <tr>
+                   <td style ="font-size: 30px;color: rgb(33, 39, 44);">Registration Form</td>
+                   </tr><br/>
+                <tr>
+                <td>First Name</td>
+                <td>Last Name</td>
+                </tr>
+                <td>
+                    <input type= "text" name="username" size ="25" maxlength="30" style ="padding: 10px;border: 2px gainsboro solid; border-radius: 5px; margin-top: 5px;"> 
+                </td>
+                <td> <input type= "text" name="username" size ="25" maxlength="30" style="padding: 10px;border: 2px gainsboro solid; border-radius: 5px;"></td>
+                <!--2nd row-->
+                <tr>
+                    <td>Birthday</td>
+                    <td>Gender</td>
+                </tr>
+                <td>
+                    <input type="date" size="30" min ="1997-01-01" size="25" style="padding: 10px ;border: 2px gainsboro solid; border-radius: 5px;">
+                </td>
+                <td>
+                    <input type ="radio" name ="Gender" value="Male">Male
+            <input type ="radio" name ="Gender" value="Female">Female
+                </td>
+                <!--3rd row-->
+                <tr>
+                    <td>Email</td>
+                    <td>Phone Number</td>
+                </tr>
+                <td>
+                    <input type ="email" name = "email" required="required" placeholder="example@gmail.com" size="25" maxlength ="30"style="padding: 10px;border: 2px gainsboro solid; border-radius: 5px;">
+                </td>
+                <td>
+                    <input type= "Number" name="phone number" size ="25" maxlength="11" style="padding: 10px;border: 2px gainsboro solid; border-radius: 5px;">
+                </td>
+                <tr>
+                    <td>Subject<td>
+                </tr>
+                <td>
+                    <select id ="Subject" style="padding:10px;border: 2px gainsboro solid; border-radius: 5px;">
+                        <option value="subject">Choose option</option>
+                        <option value = "Mathematics">Mathematics</option>
+                        <option value ="Statistics">Statistics</option>
+                        <option value ="Physics">Physics</option>
+                    </select>
+                </td>
+                <tr>
+                    <td>
+                       <button type = "Submit" value="submit" style ="background-color: rgb(33, 143, 233); width: 110px;padding: 12px;border: 2px gainsboro solid; border-radius: 5px;color: whitesmoke; margin: 10px;">Submit</button>
+                    </tD>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
